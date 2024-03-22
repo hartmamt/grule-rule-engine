@@ -111,15 +111,15 @@ func (bundle *FileResourceBundle) Load() ([]Resource, error) {
 }
 
 // MustLoad function is the same as Load with difference that it will panic if any error is raised
-func (bundle *FileResourceBundle) MustLoad() []Resource {
-	resources, err := bundle.Load()
-	if err != nil {
+// func (bundle *FileResourceBundle) MustLoad() []Resource {
+// 	resources, err := bundle.Load()
+// 	if err != nil {
 
-		panic(err)
-	}
+// 		panic(err)
+// 	}
 
-	return resources
-}
+// 	return resources
+// }
 
 func (bundle *FileResourceBundle) loadPath(path string) ([]Resource, error) {
 	logger.Log.Tracef("Enter directory %s", path)
