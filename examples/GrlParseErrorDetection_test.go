@@ -1,9 +1,9 @@
 package examples
 
 import (
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/builder"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/hartmamt/grule-rule-engine/ast"
+	"github.com/hartmamt/grule-rule-engine/builder"
+	"github.com/hartmamt/grule-rule-engine/pkg"
 	"testing"
 )
 

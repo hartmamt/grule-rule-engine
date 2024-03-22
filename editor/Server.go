@@ -2,7 +2,7 @@ package editor
 
 import (
 	"context"
-	mux "github.com/hyperjumptech/hyper-mux"
+	mux "github.com/hartmamt/hyper-mux"
 	"github.com/sirupsen/logrus"
 	"log"
 	"net/http"
